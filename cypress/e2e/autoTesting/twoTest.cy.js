@@ -6,7 +6,7 @@ it('Using get with find and eq', () => {
     cy.get('tbody').find('td').find('div').find('button').eq(0)
 
 })
-
+// еуые
 // test comment
 it.only('Using get with find and eq', () => {
     cy.visit('https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test#What-you-ll-learn')
